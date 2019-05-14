@@ -54,6 +54,7 @@ p {
 	width: 520px;
 	background-color: white;
 	border: 2px solid #DCDCDC;
+    box-shadow: 0px 5px 0px 0px rgba(244,244,244,1);
 }
 .main p {
     color: #707070;
@@ -94,10 +95,11 @@ span {
 #give {
     width: 240px;
     height: 100px;
-    border: 1px solid #01B21A;
+    border: 2px solid #01B21A;
     border-radius: 6px;
     float: right;
     background-color: #00BE1C;
+    box-shadow: 0px 2px 0px 0px #01B21A;
 }
 #give:hover {
     background-color: #01B21A;
@@ -127,6 +129,7 @@ span {
     display: inline-block;
     margin: 40px;
     width: 600px;
+    
 }
 button {
     width: 280px;
@@ -137,12 +140,14 @@ button {
     font-size: 28px;
     font-weight: bold;
     color: #707070;
+    box-shadow: 0px 3px 0px 0px #DCDCDC;
 }
 button:hover {
     background-color: #DCDCDC;
 }
 #save {
     float: left;
+    
 }
 #friends {
     float: right;
