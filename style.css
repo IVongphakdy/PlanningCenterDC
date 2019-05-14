@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+/*---GLOBAL---*/
+* {
+	margin: 0;
+	padding: 0;
+}
+/*
+:root {
+    --lightGray: #DCDCDC;
+    --orange: #F15E33;
+}
+*/
+html {
+	font-family: Helvetica, sans-serif;
+}
+
+body {
+	width: 100%;
+}
+
+/*---MAIN---*/
+.main {
+    margin:  20px 40px;
+    padding: 40px;
+	height: auto;
+	width: 520px;
+	background-color: white;
+	border: 2px solid #DCDCDC;
+}
+.main p {
+    text-align: left;
+    font-size: 28px;
+    color: #707070;
+}
+span {
+    color: #F15E33; 
+}
+
+.input-donor {
+    display: flex;
+    border: 1px solid #DCDCDC;
+    border-radius: 6px;
+    width: 240px;
+    height: 100px;
+    margin: 20px;
+    margin-left: 0;
+}
+.input-donor p {
+    margin: auto 20px;
+    font-size: 32px;
+}
+
+.button-donor {
+    display:flex;
+    border: 1px solid #01B21A;
+    border-radius: 6px;
+    width: 240px;
+    height: 100px;
+    margin: 20px;
+    margin-right: 0;
+    background-color: #00BE1C;
+    
+}
+.button-donor p {
+
+    font-size: 32px;
+    color: white;
+}
+
