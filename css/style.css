@@ -5,20 +5,44 @@
 	margin: 0;
 	padding: 0;
 }
-/*
-:root {
-    --lightGray: #DCDCDC;
-    --orange: #F15E33;
-}
-*/
+
 html {
 	font-family: Helvetica, sans-serif;
 }
-
 body {
 	width: 100%;
 }
+p {
+    text-align: left;
+    font-size: 28px;
+}
 
+/*---DIALOGUE---*/
+.dialogue {
+    position: relative;
+    margin: 40px;
+    width: 600px;
+    height: 95px;
+    background-color: #424242;
+    border-radius: 6px;
+}
+.dialogue p {
+    color: white;
+    text-align: center;
+}
+.dialogue::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 74%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #424242;
+	border-bottom: 0;
+	margin-left: -10px;
+	margin-bottom: -20px;
+}
 /*---MAIN DIV---*/
 .main {
     margin-top: 0;
@@ -30,8 +54,6 @@ body {
 	border: 2px solid #DCDCDC;
 }
 .main p {
-    text-align: left;
-    font-size: 28px;
     color: #707070;
 }
 span {
@@ -59,6 +81,9 @@ span {
     border: 1px solid #DCDCDC;
     border-radius: 6px;
 }
+#donation span {
+    color: black;
+}
 #give {
     width: 240px;
     height: 100px;
@@ -77,7 +102,7 @@ span {
 
 /*---PROGRESS BAR---*/
 .progress-bar {
-    margin:  30px 40px 0 40px;
+    margin:  0 40px;
 	height: 25px;
 	width: 600px;
 	background-color: #FAFAFA;
