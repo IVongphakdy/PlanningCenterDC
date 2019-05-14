@@ -19,9 +19,10 @@ body {
 	width: 100%;
 }
 
-/*---MAIN---*/
+/*---MAIN DIV---*/
 .main {
-    margin:  20px 40px;
+    margin-top: 0;
+    margin:  0 40px;
     padding: 30px 40px;
 	height: auto;
 	width: 520px;
@@ -73,3 +74,45 @@ span {
     color: white;
     text-align: center;
 }
+
+/*---PROGRESS BAR---*/
+.progress-bar {
+    margin:  30px 40px 0 40px;
+	height: 25px;
+	width: 600px;
+	background-color: #FAFAFA;
+	border: 2px solid #DCDCDC;
+    border-bottom: 0px;
+}
+.progress {
+    background-color: #F15E33;
+    width: 75%;
+    height: 25px;
+}
+
+/*---BUTTONS---*/
+.button-container {
+    display: inline-block;
+    margin: 40px;
+    width: 600px;
+}
+button {
+    width: 280px;
+    height: 80px;
+    background-color: #FAFAFA;
+	border: 2px solid #DCDCDC;
+    border-radius: 6px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #707070;
+}
+button:hover {
+    background-color: #DCDCDC;
+}
+#save {
+    float: left;
+}
+#friends {
+    float: right;
+}
+
