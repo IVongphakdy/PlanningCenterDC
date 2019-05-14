@@ -1,8 +1,6 @@
 # PlanningCenterDC
 Internship Design Challenge 2019
 
-Isaac Vongphakdy
-
 This challenge is pretty straightforward:
   - Recreate the UI shown in the attached image as accurately as you
 can.
